@@ -1,0 +1,50 @@
+/* For containers */
+
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: 1000px;
+    }
+}
+
+/* Small tablet to big tablet (From 768 - 1023 px): Ipad on portrait mode (landview) is 1024px */
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 800px;
+    }
+}
+
+/* Small phones to small tablets (From 481 - 767 px): Width of the Ipad is 780px */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 600px;
+    }
+}
+
+/* Width of old Iphones (< 5s Iphones) */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+
+/* For cards */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+@media (max-width: 767px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .card-white {
+        width:auto;
+    }
+}
